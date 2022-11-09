@@ -6,7 +6,6 @@ public class PrintMiddleNode {
         for (int i = 1; i <= 6; i++) {
             sll.add(i);
         }
-        sll.printNodes();
         printMiddle(sll);
     }
     public static void printMiddle(MySinglyLinkedList sll){
